@@ -1,0 +1,285 @@
+	<!DOCTYPE HTML>
+
+	<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Udacity: Intro to Programming Notes</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<h1>Table of Contents</h1>
+		<header class="TOC">
+			<section class="TOCLesson">
+				<h3><a href="#lesson1">Lesson 1: Basics of the Web</a></h3>
+				<nav>
+					<ul class="TOCConcepts">
+						<li><a href="#lesson1-1">The Web</a></li>
+						<li><a href="#lesson1-2">Major Components of the Web</a></li>
+						<li><a href="#lesson1-3">Composition of HTML</a></li>
+						<li><a href="#lesson1-4">HTML Attributes</a></li>
+						<li><a href="#lesson1-5">Whitespace</a></li>
+						<li><a href="#lesson1-6">Block Vs. Inline</a></li>
+						<li><a href="#lesson1-7">HTML Structure</a></li>
+						<li><a href="#lesson1-8">We Are Human But Computers Are Not</a></li>
+					</ul>
+				</nav>
+			</section>
+			<section class="TOCLesson">
+				<h3><a href="#lesson2">Lesson 2: Webpages, Documents and Structure</a></h3>
+				<nav>
+					<ul class="TOCConcepts">
+						<li><a href="#lesson2-1">House Analogy</a></li>
+						<li><a href="#lesson2-2">Useful Tools For Creating Websites</a></li>
+						<li><a href="#lesson2-3">HTML, CSS and DOM</a>/</li>
+						<li><a href="#lesson2-4">Webpages are Composed of Boxes</a></li>
+					</ul>
+				</nav>
+			</section>
+			<section class="TOCLesson">
+				<h3><a href="#lesson3">Lesson 3: Adding CSS Style to HTML Structure</a></h3>
+				<nav>
+					<ul class="TOCConcepts">
+						<li><a href="#lesson3-1">Don't Repeat Yourself</a></li>
+						<li><a href="#lesson3-2">Cascading Style Sheets</a></li>
+						<li><a href="#lesson3-3">Applying Style</a></li>
+						<li><a href="#lesson3-4">Box Revisited</a></li>
+						<li><a href="#lesson3-5">Positioning Boxes</a></li>
+						<li><a href="#lesson3-6">Code, Test and Refine</a></li>
+						<li><a href="#lesson3-7">Verifying Your Code</a></li>
+					</ul>
+				</nav>
+			</section>
+		</header>
+
+		<h1>Introduction to Programming Notes</h1>
+		<section class = "lesson_container">
+			<h2>Lesson 1: Basics of the Web</h2>
+			<article class = "concept_container" id="lesson1-1">
+				<h3>The Web</h3>
+				<div>
+					<p>
+						The web is a collection of documents which are made out of HTML. HTML stands for Hypertext Markup Language. HTML glues everything (text, videos, images, etc) together. Documents can contain links to other HTML documents. This interconnection of documents gives the Web its name.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson1-2">
+				<h3>Major Components of the Web</h3>
+				<div>
+					<p>
+						Your computer uses an application called a browser to view HTML documents that reside on other servers on the Internet. It uses the HTTP protocol to send and receive this information.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson1-3">
+				<h3>Composition of HTML</h3>
+				<div>
+					<p>
+						HTML is made up of:
+					</p>
+					<ul>
+						<li>text content (what you see)</li>
+						<li>markup (determines what it looks like)</li>
+						<li>references to other documents (images, videos, etc.)</li>
+						<li>links to other HTML pages</li>
+					</ul>
+					<p>
+						HTML uses tags to change the appearance of content in a document. They start with an opening tag and end with the closing tag. The closing tag shares the same name as the opening tag but also has a slash in front of the tag's name. The content being modified by the tag lies between the opening and closing tag.
+					</p>
+					<p>
+						Some tags we learned about:
+					</p>
+					<ul>
+						<li><b>bold</b></li>
+						<li><em>italics</em></li>
+					</ul>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson1-4">
+				<h3>HTML attributes</h3>
+				<div>
+					<p>
+						HTML attributes are tags that include attributes within them. These attributes have values.
+					</p>
+					<p>
+						Examples are:
+					</p>
+					<ul>
+						<li>anchor tag - links to <a href = "www.udacity.com"> another page</a></li>
+						<li>image tag - displays an image on the page</li>
+					</ul>
+					<p>
+						Some tags do not have closing tags if there is no content - the image tag is one of these.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson1-5">
+				<h3>Whitespace</h3>
+				<div>
+					<p>
+						In HTML, all whitespace turns into a single space. We use tags to control how whitespace appears on our page.
+					</p>
+					<p>
+						Example tags:
+					</p>
+					<ul>
+						<li>br - line break (void tag)</li>
+						<li>p - paragraph - has opening and closing tag - content between tags will be contained in the paragraph</li>
+					</ul>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson1-6">
+				<h3>Block vs Inline</h3>
+				<div>
+					<p>
+						Inline tags are just text. Block tags draw invisible boxes around its content and can have a height and width.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson1-7">
+				<h3>HTML structure</h3>
+				<div>
+					<p>
+						A complete HTML document includes:
+					</p>
+					<ul>
+						<li>doctype: type of document</li>
+						<li>html tag: at beginning and end of document</li>
+						<li>head tag: contains title tag and other meta data (CSS and JavaScript)</li>
+						<li>body tag: contains document content</li>
+					</ul>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson1-8">
+				<h3>We are human but computers are not...</h3>
+				<div>
+					<p>
+						Computers can only do what we ask them to do. If we make a mistake in our programming, unexpected results may occur. If we forget how to do something, we know we can always look it up. It's impossible to remember everything.
+					</p>
+				</div>
+			</article>
+		</section>
+
+		<section class = "lesson_container">
+			<h2>Lesson 2: Webpages, Documents and Structure</h2>
+			<article class = "concept_container" id="lesson2-1">
+				<h3>House Analogy</h3>
+				<div>
+					<p>
+						A website can be compared to a house. The HTML documents are like the rooms in a house. They define what and where the rooms are. CSS is the look and feel of a webpage. In our house comparision, this would be the color of the walls, the type of carpeting, and the decorations on the walls. Javascript allows interactivity on the webpage, much like a garage door opener and a TV remote allow us to interact with objects in our house.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson2-2">
+				<h3>Useful Tools for Creating Websites</h3>
+				<div>
+					<p>
+						Google Chrome offers a useful developer tool within the browser which allows you to view the structure of a page as the browser interprets it. You can also use it to modify values in the page to see how they affect the look of the page. The tool will also let you visually see the tree-like structure of how the browser interprets the webpage. There are also several editors you can use to create websites, such as Scratchpad.io, CodePen.io, and Sublime Text.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson2-3">
+				<h3>HTML, CSS and DOM</h3>
+				<div>
+					<p>
+						HTML is the language of the web - its syntax and rules. The basic word of this language is the tag. The browser turns these tags into elements of a tree structure (DOM). HTML defines the structure and content.
+					</p>
+					<p>
+						CSS defines the style (look and feel) of the webpage. It has its own syntax and rules.
+					</p>
+					<p>
+						DOM stands for Document Object Model. It is an independent convention for representing and interacting with objects in HTML and other markup languages. The nodes of every document are organized in a tree structure called the DOM tree.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson2-4">
+				<h3>Webpages are Composed of Boxes</h3>
+				<div>
+					<p>
+						Webpages can be broken up into several boxes - even boxes within boxes. Breaking up a webpage in this way makes it much easier to determine how each part of the webpage should be coded. Start with the big boxes first before worrying about the smaller boxes.
+					</p>
+					<p>
+						Div tags are used to define boxes. To apply style, you can mark these div sections by giving each element a class attribute to define what the box is.
+					</p>
+				</div>
+			</article>
+		</section>
+		<section class = "lesson_container">
+			<h2>Lesson 3: Adding CSS Style to HTML Structure</h2>
+			<article class = "concept_container" id="lesson3-1">
+				<h3>Don't Repeat Yourself</h3>
+				<div>
+					<p>
+						You want to avoid repetition as much as possible in your code. This reduces the amount of code you need to have in your webpage and allows you to easily make changes. Webpages will also load faster. You can use CSS to avoid repetition.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson3-2">
+				<h3>Cascading Style Sheets</h3>
+				<div>
+					<p>
+						CSS stands for "Cascading Style Sheets." Each sheet is a different layer of style, and you can have multiple sheets (files) in your code. Cascading means that the most specific rules for each element will be applied. An element's descendents in the HTML tree structure can inherit any text-related properties, but not box-related properties.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson3-3">
+				<h3>Applying Style</h3>
+				<div>
+					<p>
+						In your CSS file, you use selectors to specify how your elements look. You can apply styles to any tag, or you can create classes. The attributes and their values are enclosed in brackets for each element. Use the <a href = "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS documentation</a> when needed. You can also put your CSS style code in the HTML document if the project is small. Putting style inline with your HTML is not recommended.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson3-4">
+				<h3>Box Revisited</h3>
+				<div>
+					<p>
+						The box model contains areas for content, padding, border, and margin. This box and its areas can be viewed using the developer tools in Google Chrome. The size of your element is equal to the sum of the border, padding and content. Don't forget to include the border and padding on both sides of the content. You can use the attribute "box-sizing" set to the value "border-box" to have the border and padding automatically calculated in the element size. Margin is not included in this size. Since this is a recent feature, you will need to add browser specific prefixes to ensure older browsers will display the content correctly.
+					</p>
+					<p>
+						You can also use percentages instead of pixels to define the size of your boxes. This will allow you to auto-adjust the size of your boxes for various browser screen sizes. The attribute maxwidth can be used to ensure your box never goes beyond a certain size, but it will also auto-adjust for smaller sizes as needed.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson3-5">
+				<h3>Positioning Boxes</h3>
+				<div>
+					<p>
+						Boxes by default take up the entire width of a page. To have boxes appear next to each other, you can use the flexbox layout. Use the attribute display with the value flex within the parent selector's brackets. The size of the elements must be smaller than the default 100%.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson3-6">
+				<h3>Code, Test and Refine</h3>
+				<div>
+					<p>
+						Repeat the process of modifying code and testing until the website looks correct.
+					</p>
+					<ol>
+						<li value="1">Look for natural boxes</li>
+						<li value="2">Look for repeated styles and semantic elements</li>
+						<li value="3">Write your HTML</li>
+						<li value="4">Apply styles (from biggest to smallest)</li>
+						<li value="5">Fix things</li>
+					</ol>
+					<p>
+						Use Google Chrome's developer tools to test out changes without having to alter your HTML code.
+					</p>
+				</div>
+			</article>
+			<article class = "concept_container" id="lesson3-7">
+				<h3>Verifying Your Code</h3>
+				<div>
+					<p>
+						Use the W3C validator websites to verify both your HTML and CSS code. This will ensure your website complies with the standard.
+					</p>
+					<nav>
+						<a href="http://validator.w3.org/">HTML validator</a> |
+						<a href="http://jigsaw.w3.org/css-validator/">CSS validator</a>
+					</nav>
+				</div>
+			</article>
+		</section>
+	</body>
+	</html>
