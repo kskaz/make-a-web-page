@@ -1,0 +1,69 @@
+h1 {
+	text-align: center;
+	color: #8B0000;
+}
+
+h2 {
+	text-align: center;
+	color: #FFEFD5;
+}
+
+h3 {
+
+	text-align: center;
+	color: #8B0000;
+}
+
+body {
+	font-size: 16px;
+	margin: 50px;
+
+}
+
+.TOC {
+	padding: 10px;
+	-webkit-justify-content: center;
+	-webkit-flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	justify-content: center;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+}
+
+.TOCLesson {
+
+	background-color: #FFEFD5;
+	border-radius: 20px;
+	margin: 10px;
+	width: 25%;
+	line-height: 20px;
+	text-align: center;
+	padding: 10px;
+	border: 7px solid #8B0000;
+}
+
+.TOCConcepts {
+
+	list-style-type: none;
+	padding: 0px;
+
+}
+
+.concept_container {
+	background-color: #FFEFD5;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 25px;
+}
+
+.lesson_container {
+	background-color: #8B0000;
+	border-radius: 20px;
+	margin-right: 240px;
+	margin-left: 240px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+
+}
